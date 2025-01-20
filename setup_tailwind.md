@@ -1,7 +1,8 @@
 # Follow this steps to configure Tailwind CSS environment
 
 Step 1: Install Tailwind CSS 
->npm install -D tailwindcss
+>npm install -d tailwindcss
+
 >npx tailwindcss init
 
 Step 2 : Configure template paths in "tailwind.config.js" file.
