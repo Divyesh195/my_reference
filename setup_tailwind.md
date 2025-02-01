@@ -1,7 +1,7 @@
-# Follow this steps to configure Tailwind CSS environment
+# This is not for Tailwind V.4 or later
 
 Step 1: Install Tailwind CSS 
->npm install -d tailwindcss
+>npm install -D tailwindcss
 
 >npx tailwindcss init
 

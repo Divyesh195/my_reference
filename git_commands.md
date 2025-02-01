@@ -4,7 +4,9 @@
 
 >git remote add origin repo_url
 
->git push -u origin master
+>git branch -M main
+
+>git push -u origin main
 
 To remove origin 
 >git remote remove origin
