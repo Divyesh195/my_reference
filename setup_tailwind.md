@@ -1,4 +1,4 @@
-# This is not for Tailwind V.4 or later
+# This is for Tailwindcss v 3.4.17
 
 Step 1: Install Tailwind CSS 
 >npm install -D tailwindcss
