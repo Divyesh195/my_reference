@@ -7,5 +7,13 @@
 2. To delete Databse 
 > db.dropdatabase()
 
-3. 
+3. Create collection
+> db.createCollection("collection_name")
+
+4. All commands for collections
+> db.getCollectionNames()
+
+> db.collection_name.renameCollection("new_name")
+
+> db.collection_name.drop()
 

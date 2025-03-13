@@ -23,5 +23,10 @@ If problem in push
 This command will ignore all .txt files in repository
 > *.txt
 
-This command will ignore folder named "node_modules"
->/node_module
+This command will ignore all folders named "node_modules"
+>node_module
+
+This commands will ignore all png files by not in "screenshots" folder
+>*.png
+
+>!/screenshots/*.png
