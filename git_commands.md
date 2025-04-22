@@ -30,3 +30,11 @@ This commands will ignore all png files by not in "screenshots" folder
 >*.png
 
 >!/screenshots/*.png
+
+4. To create another branch or chnage branch
+
+This command will move to the other existing branch
+>git checkout branch-name
+
+Thiw command will create a new branch and move to it
+>git checkout -b new-branch-name
