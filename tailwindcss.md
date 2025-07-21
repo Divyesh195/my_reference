@@ -7,3 +7,14 @@
     width: 0px;
 }
 ```
+
+2. To make custom color variables add this code into global.css in next js project.
+
+
+```
+@theme {
+  --color-lighthover: #fcf4ff;
+  --color-darkhover : #2a004a;
+  --color-darktheme : #11001f;
+}
+```

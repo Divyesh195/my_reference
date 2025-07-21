@@ -12,3 +12,7 @@ async rewrites() {
    ];
 },
 ```
+2. To create Next js app using PNPM use this command
+```
+pnpm create next-app
+```
