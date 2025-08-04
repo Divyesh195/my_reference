@@ -8,6 +8,9 @@
 
 >git push -u origin main
 
+To remove files from stating area
+>git reset HEAD --
+
 To remove origin 
 >git remote remove origin
 

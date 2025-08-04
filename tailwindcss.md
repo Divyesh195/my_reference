@@ -18,3 +18,9 @@
   --color-darktheme : #11001f;
 }
 ```
+
+3. To apply images dynamically using map function, do not use bg-url class. Use this instead.
+
+```
+style={{ backgroundImage: `url(${items.img})` }}
+```
