@@ -23,3 +23,8 @@ Exmaple : NEXT_PUBLIC_SITE_URL = http://localhost:3000
 
 Access this variables using this command : process.env.NEXT_PUBLIC_SITE_URL
 ```
+
+3. Upgrading Next Js app
+```
+Change the Next js version in package.json file and run 'npm install' command.
+```

@@ -14,6 +14,9 @@ To remove files from stating area
 To remove origin 
 >git remote remove origin
 
+To see current origin
+>git remote -v
+
 If problem in push
 >git pull --rebase origin main
 
