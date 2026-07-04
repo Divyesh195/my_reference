@@ -76,3 +76,13 @@ docker network ls
 ```
 docker network create [network_name]
 ```
+
+
+
+## 4. Database Images commands
+
+### Postgres Container for local development.
+
+```
+docker run --name postgres_dev -e POSTGRES_PASSWORD=db_password -v my_pgdata_14:/var/lib/postgresql/data -p 5432:5432 -d postgres:latest
+```
