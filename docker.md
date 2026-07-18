@@ -53,7 +53,7 @@ docker start -ai [container name]
 ### Run containers again in interactive mode (reliable method)
 ```
 docker start container_name
-docker exec -it container_name bash
+docker exec -it container_name /bin/bash
 ```
 
 ## 3. Build commands
@@ -79,10 +79,28 @@ docker network create [network_name]
 
 
 
-## 4. Database Images commands
+## 5. Database Images commands
 
 ### Postgres Container for local development.
 
 ```
 docker run --name postgres_dev -e POSTGRES_PASSWORD=db_password -v my_pgdata_14:/var/lib/postgresql/data -p 5432:5432 -d postgres:latest
 ```
+
+
+## 6. Database Volumes
+
+### Local volumes with explicit path
+
+```
+docker run -it -v "C:/Users/Divyesh Parmar/Desktop/Local Volumes:/test/data" ubuntu
+```
+
+### Docker managed volumes
+
+```
+docker volume create [volume_name]
+docker run -it --name ubuntu95  -v [volume_name]:/test/data ubuntu
+```
+
+
