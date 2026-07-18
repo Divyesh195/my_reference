@@ -1,6 +1,6 @@
 # Use this commands to use Git
 
-1. Push code to Github
+### 1. Push code to Github
 
 >git remote add origin repo_url
 
@@ -20,11 +20,11 @@ To see current origin
 If problem in push
 >git pull --rebase origin main
 
-2. clone a Repository
+### 2. clone a Repository
 
 >git clone repo_url
 
-3. Git Ignore commands
+### 3. Git Ignore commands
 
 This command will ignore all .txt files in repository
 > *.txt
@@ -37,10 +37,21 @@ This commands will ignore all png files by not in "screenshots" folder
 
 >!/screenshots/*.png
 
-4. To create another branch or chnage branch
+### 4. To create another branch or chnage branch
 
 This command will move to the other existing branch
 >git checkout branch-name
 
 Thiw command will create a new branch and move to it
 >git checkout -b new-branch-name
+
+### 5. Restoring commands
+
+This command will restore the modified file to its previous state (as per last commit). File should not be commited or in staging area.
+```
+git checkout file.txt
+```
+
+### Learn GIT with GUI
+
+#### https://learngitbranching.js.org/
