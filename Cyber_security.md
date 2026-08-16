@@ -1,4 +1,4 @@
-# Cynber Security
+# Cyber Security
 
 ## 1. Basic Web Vulnerabilities
 
