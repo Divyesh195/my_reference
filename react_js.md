@@ -24,3 +24,18 @@ This will return this HTML.
 <p>Welcome</p>
 ```
 Without <Fragment> it will return them wrapped under a parent <div> tag, which will require adding extra CSS.
+
+(2). Use useMemo() for storing vlaue of expensive calculation with dependency array, just like useEffect.
+
+```
+  const filteredProducts = useMemo(() => {
+    console.log("Filtering products...");
+
+    return products.filter((product) =>
+      product.name.toLowerCase().includes(search.toLowerCase())
+    );
+
+  }, [products, search]);
+```
+
+This will save filtered products in "filteredProducts" everytime producst and search changes.
