@@ -6,8 +6,8 @@
 npx create-react-app@latest frontend --template typescript
 ```
 
-2. React Tips and Tricks
-   (1). Wrapping elements in <Fragment> or <>..</>, will be good in case you do not want to pass a new div/section in DOM.
+2. React Tips and Tricks <br>
+(1). Wrapping elements in <Fragment> or <>..</>, will be good in case you do not want to pass a new div/section in DOM.
 ```
 function App() {
   return (
