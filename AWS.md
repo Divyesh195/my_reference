@@ -9,3 +9,7 @@
 (2). Create a new EBS volume from snapshot and while creating choose desired AZ. 
 
 (3). After that attach the volume to the EC2 instace running in that AZ and mount it to use data.
+
+### Automate the backup of data using Lifecycle manager
+
+Use Amazon Data Lifecycle Manager to automate the creation, retention, and deletion of EBS snapshots and EBS-backed AMIs. Creates snapshot of EBS volume at defined intervals and deletes after certain defined period. Useful in case of storing critical data.
